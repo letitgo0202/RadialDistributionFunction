@@ -6,7 +6,7 @@
 #include <cuda_runtime.h>
 #include"vector_algebra.cuh"
 #include"config.h"
-#include"atomic.cuh"
+
 namespace gdr{
   #ifdef USE_CUDA
 #define HOSTDEVICE __host__ __device__
