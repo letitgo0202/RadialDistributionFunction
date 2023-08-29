@@ -3,7 +3,7 @@
  */
 #ifndef RDF_COMMON_H
 #define RDF_COMMON_H
-
+#include <cuda_runtime.h>
 #include"vector_algebra.cuh"
 #include"config.h"
 #include"atomic.cuh"
